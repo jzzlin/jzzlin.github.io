@@ -1,6 +1,6 @@
 var games = [];
 var boardSize = 5;
-var preventBingo = false;
+var preventBingo = true;
 
 window.onload = function() {
     $("#header a").attr("href", location.protocol + "//" + location.host + location.pathname);
